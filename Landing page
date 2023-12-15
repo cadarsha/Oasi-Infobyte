@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>Netflix Home Page</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+background-color:black;
+color:red;
+}
+
+header{
+background-color:black;
+padding:10px;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:space-around;
+background-color:black;
+padding:10px;
+}
+
+section{
+padding:20px;
+}
+
+footer{
+text-align:center;
+padding:10px;
+background-color:black;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Netflix</h1>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Tv Shows</a>
+<a href="#">Movies</a>
+<a href="#">New & Popular</a>
+<a href="#">My List</a>
+</nav>
+
+<section>
+<h2>Browse Tv Shows</h2>
+<img src="C:\Users\admin\Pictures\download (4).jpeg" height="200" width="250" alt="TV Show Image">
+<img src="C:\Users\admin\Pictures\download (5).jpeg" height="200" width="250" alt="TV Show Image">
+<img src="C:\Users\admin\Pictures\images (1).jpeg" height="200" width="250" alt="TV Show Image">
+<img src="C:\Users\admin\Pictures\download (6).jpeg" height="200" width="250" alt="TV Show Image">
+<img src="C:\Users\admin\Pictures\download (9).jpeg" height="200" width="200" alt="TV Show Image">
+
+<h2>Popular Movies</h2>
+<img src="C:\Users\admin\Pictures\download (7).jpeg" height="200" width="250" alt="Popular Movie">
+<img src="C:\Users\admin\Pictures\images (2).jpeg" height="200" width="250" alt="Popular Movie">
+<img src="C:\Users\admin\Pictures\download (8).jpeg" height="200" width="250" alt="Popular Movie">
+<img src="C:\Users\admin\Pictures\images (3).jpeg" height="200" width="250" alt="Popular Movie">
+<img src="C:\Users\admin\Pictures\download (10).jpeg" height="200" width="200" alt="TV Show Image">
+
+</section>
+
+<footer>
+<p>&copy;2023 Netflix,Inc.</p>
+</footer>
+</body>
+</html>
